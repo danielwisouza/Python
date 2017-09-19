@@ -1,0 +1,10 @@
+codigo = int(input("Informe o código: "))
+nhoras = int(input("Informe o número de horas trabalhadas: "))
+
+E = 0
+if (nhoras - 50) > 0:
+    E = (nhoras - 50) * 20
+
+salario_total = (nhoras * 10) + E
+
+print("Salário excedente: %d - Salário total: %d." %(E, salario_total))
