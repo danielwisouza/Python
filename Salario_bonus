@@ -1,0 +1,7 @@
+pecanum = (int(input("Peça 1 Quantidade")))
+pecavalor = (float(input("Peça 1 Valor")))
+peca2num = (int(input("Peça 2 qantidade")))
+peca2valor = (float(input("Peça 2 valor")))
+
+total =((pecanum*pecavalor)+(peca2num*peca2valor))
+print("VALOR A PAGAR","%.2f"%total)
