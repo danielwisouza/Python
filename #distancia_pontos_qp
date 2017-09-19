@@ -1,0 +1,8 @@
+x1 = float(input("Informe a coordenada X do ponto de origem (P)"))
+y1 = float(input("Informe a coordenada Y do ponto de origem (P)"))
+x2 = float(input("Informe a coordenada X do ponto de origem (Q)"))
+y2 = float(input("Informe a coordenada Y do ponto de origem (Q)"))
+
+dpq = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+
+print("A distância entre os dois pontos é %.2f." %dpq)
