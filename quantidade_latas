@@ -1,0 +1,18 @@
+altura = float(input("Informe a altura do cilindro: "))
+raio = float(input("Informe a raio do cilindro: "))
+
+area_lateral = 2 * 3.14 * raio * altura
+area_base = raio ** 2 * 3.14
+area_total = 2 * area_base + area_lateral
+
+litros = area_total / 3
+latas = litros / 5
+
+if latas > int(latas):
+    latas = int(latas) + 1
+else:
+    latas = int(latas)
+
+custo = latas * 50
+
+print("Custo: %.2f - Quantidade de Latas Cheias: %d" %(custo, latas))
