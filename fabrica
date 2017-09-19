@@ -1,0 +1,16 @@
+nome = (input("Digite o nome do produto: \n"))
+grupo =(input("Digite o grupo [A] , [B] ou [C] que o produto pertence: \n"))
+preco = float(input("Digite o preço do produto: \n"))
+
+#Qual a diferença entra "A" or 'a' ?
+
+if grupo == "A" or grupo == "a":
+    total = (preco * 0.2) + preco
+elif grupo == 'B' or grupo == 'b':
+    total = (preco * 0.3) + preco
+else:
+    total = (preco * 0.1) + preco
+    
+print("O produto",nome,"é vendido no atacado no valor de R$ %2.2f un." % preco)
+print("No varejo o produro",nome,"é vendido por de R$ %2.2f un."% total)    
+
