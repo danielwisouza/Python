@@ -14,6 +14,5 @@ else:
         saldo = minutos * 0.15
         preco = 0.16
         print("TOTAL DA CONTA É R$ %2.2f " % saldo)
-    
 
 print("TESTE PRINTF NO FINAL %2.2f " % (minutos * preco))
