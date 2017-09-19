@@ -7,4 +7,4 @@ if velocidade > 110:
  
     
 if velocidade < 110:
-    print ("Parabéns está dirigindo BÉM dirigindo !! ")
+    print ("Parabéns está dirigindo bém dirigindo !! ")
