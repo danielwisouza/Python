@@ -1,0 +1,7 @@
+a = int(input("Primeiro Valor: "))
+b = int(input("Segundo Valor: "))
+
+if a > b:
+    print("O maior valor é o primeiro!! ",a)
+if b > a:
+    print ("O maior valor é o segundo!! ",b)
