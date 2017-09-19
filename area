@@ -1,0 +1,12 @@
+valor = int(input("Digite um valor qualquer: "))
+tipo = int(input("Digite [1] para calcular a área de um Circulo:\n" "Digite [2] para calcular a área de um Quadrado:\n"))
+
+if tipo == 1:
+    area = (3.14 * (valor*valor))
+    print("A área do círculo É",area,"metros.")
+elif tipo == 2:
+    area = (valor*valor)
+    print("A área do quadrado É",area," metros.")
+else:
+    # Pesquisar como fazer este else voltar no primeiro if
+    print("ERRO")
