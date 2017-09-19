@@ -1,0 +1,8 @@
+vendedor=input("Digite o  nome do vendedor\n")
+valor=float(input("Digite o sálario do vendedor\n"))
+vendas=int(input("Digite o total de vendas do vendedor\n"))
+
+total=((vendas * 0.15)+valor)
+
+print(vendedor,"ganha o  sálario líquido de R$","%.2f"% valor,"com a comissão o sálario sobe para R$","%.2f"%total)
+
