@@ -1,0 +1,10 @@
+velocidade = int(input("Qual a velocidade do carro? [ km/h ] \n"))
+
+if velocidade > 110:
+    print("Motorista você está dirigido acima do permitido e será multado!! ")
+    multa = (velocidade - 110) * 5
+    print("MULTA DE R$%2.2f REAIS. "% multa)
+ 
+    
+if velocidade < 110:
+    print ("Parabéns está dirigindo BÉM dirigindo !! ")
