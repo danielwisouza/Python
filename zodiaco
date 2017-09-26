@@ -1,0 +1,31 @@
+dia = int(input("Digite o dia do seu aniversário: "))
+mes = int(input("Digite o mês do seu aniversário: "))
+
+if ((dia>=20 and mes ==1) or (dia<=18 and mes == 2)):
+    print("Seu signo do Zodíaco é Aquário.")
+elif ((dia>=20 and mes ==1) or (dia<=18 and mes == 2)):
+    print("Seu signo do Zodíaco é Aquário.")
+elif ((dia>=19 and mes ==2) or (dia<=20 and mes == 3)):
+    print("Seu signo do Zodíaco é Peixes.")
+elif((dia>=21 and mes ==3) or (dia<=19 and mes == 4)): 
+    print("Seu signo do Zodíaco é Áries.")
+elif ((dia>=20 and mes ==4) or (dia<=20 and mes == 5)): 
+    print("Seu signo do Zodíaco é Touro.")
+elif ((dia>=21 and mes ==5) or (dia<=20 and mes == 6)): 
+    print("Seu signo do Zodíaco é Gêmeos.")
+elif ((dia>=21 and mes ==6) or (dia<=22 and mes == 7)): 
+    print("Seu signo do Zodíaco é Câncer.")
+elif ((dia>=23 and mes ==7) or (dia<=22 and mes == 8)): 
+    print("Seu signo do Zodíaco é Leão")
+elif ((dia>=23 and mes ==8) or (dia<=22 and mes == 9)): 
+    print("Seu signo do Zodíaco é Virgem.")
+elif ((dia>=23 and mes ==9) or (dia<=22 and mes == 10)): 
+    print("Seu signo do Zodíaco é Libra.")
+elif ((dia>=23 and mes ==10) or (dia<=21 and mes == 11)): 
+    print("Seu signo do Zodíaco é Escorpião.")
+elif ((dia>=22 and mes ==11) or (dia<=21 and mes == 12)): 
+    print("Seu signo do Zodíaco é Sagitário.")
+elif ((dia>=20 and mes ==12) or (dia<=19 and mes == 1)):
+    print("Seu signo do Zodíaco é Capricórnio.")
+else:
+    print("Mês ou Dia incorretos, tente novamente")
