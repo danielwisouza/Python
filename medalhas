@@ -1,0 +1,38 @@
+print ("------QUADRO DE MEDALHAS POR PAIS-------")
+
+pais1 =  input("Digite o nome primeiro país: ")
+ouro1 = int(input("Digite quantidade de medalha de OURO o %s ganhou: " % pais1))
+prata1 = int(input("Digite quantidade de medalha de PRATA o %s ganhou: " % pais1))
+bronze1 = int(input("Digite quantidade de medalha de BRONZE o %s ganhou: " % pais1))
+
+print ("------QUADRO DE MEDALHAS POR PAIS-------")
+
+pais2 = input("Digite o nome segundo país: ")
+ouro2 = int(input("Digite quantidade de medalha de OURO o %s ganhou: " % pais2))
+prata2 = int(input("Digite quantidade de medalha de PRATA o %s ganhou: " % pais2))
+bronze2 = int(input("Digite quantidade de medalha de BRONZE o %s ganhou: " % pais2))
+
+print ("------QUADRO DE MEDALHAS POR PAIS-------")
+
+pais3 = input("Digite o nome segundo país: ")
+ouro3 = int(input("Digite quantidade de medalha de OURO o %s ganhou: " % pais3))
+prata3 = int(input("Digite quantidade de medalha de PRATA o %s ganhou: " % pais3))
+bronze3 = int(input("Digite quantidade de medalha de BRONZE o %s ganhou: " % pais3))        
+
+pais1total = ((ouro1 * 3) + (prata1 * 2) + (bronze1 * 1))
+pais2total = ((ouro2 * 3) + (prata2 * 2) + (bronze2 * 1))
+pais3total = ((ouro3 * 3) + (prata3 * 2) + (bronze3 * 1))
+
+print ("\n------QUADRO DE MEDALHAS PAIS ",pais1,"-------\n")
+
+print ("A quantidade de medalhas de",pais1,"é",ouro1,"de Ouro,",prata1,"de Prata e",bronze1,"de Bronze.")
+print ("O total de medalhas do pais",pais1,"foi",pais1total)
+
+print ("\n------QUADRO DE MEDALHAS PAIS ",pais2,"-------\n")
+print ("A quantidade de medalhas de",pais2,"é",ouro2,"de Ouro,",prata2,"de Prata e",bronze2,"de Bronze.")
+
+print ("O total de medalhas do pais",pais1,"foi",pais2total)
+print ("\n------QUADRO DE MEDALHAS PAIS ",pais3,"-------\n")
+
+print ("A quantidade de medalhas de",pais3,"é",ouro3,"de Ouro,",prata3,"de Prata e",bronze3,"de Bronze.")
+print ("O total de medalhas do pais",pais3,"foi",pais3total)
