@@ -1,0 +1,8 @@
+idade = int(input("Qual a sua idade?  "))
+
+if (idade <= 15):
+         print("Infelizmente você ainda não tem idade para votar.")         
+elif ((idade == 16) or (idade == 17) or (idade>65)):
+         print("Caro eleitor seu voto é facultativo.")
+else:
+         print("Caro eleitor seu voto é obrigatório.")
