@@ -1,0 +1,91 @@
+resposta = input("Seu animal pertence a categoria MAMÍFEROS [Y] ou [N] : ")
+
+#Como colocar para todo diferente <> de Y ou N
+#Qual a diferença de "A" or 'a'
+
+if resposta == "Y" or resposta == "y":
+        resposta = input("Seu animal é QUADRÚPEDE? [Y] ou [N] : ")
+        if resposta == "Y" or resposta == "y":
+                resposta = input("Seu animal é CARNÍVORO? [Y] ou [N] : ")
+                if resposta == "Y" or resposta == "y":
+                        print("Seu animal é um LEÃO.")
+                elif resposta == "N" or resposta == "n":
+                        resposta = input("Seu animal é HERBÍVORO? [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é um CAVALO.")
+                        elif resposta == "N" or resposta == "n":
+                                print("Animal INVÁLIDO, vamos tentar dinovo: \n")
+
+
+        if resposta == "N" or resposta == "n":
+                resposta = input("Seu animal é um BÍPEDES? [Y] ou [N] : ")
+                if resposta == "Y" or resposta == "y":
+                        resposta = input("Seu animal é ONÍVORO? [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é um SER HUMANO.")
+                        elif resposta == "N" or resposta == "n":
+                                resposta = input("Seu animal é FLUTÍVORO? [Y] ou [N] : ")
+                                if resposta == "Y" or resposta == "y":
+                                        print("Seu animal é um MACACO.")
+                                else: 
+                                     print("Animal INVÁLIDO, vamos tentar pela última vez: \n")
+                                     
+                                     
+        if resposta == "N" or resposta == "n":
+                resposta = input("Seu animal é um VOADOR?  [Y] ou [N] : ")
+                if resposta == "Y" or resposta == "y":
+                        print("Seu animal é um MORCEGO.")
+                elif resposta == "N" or resposta == "n":
+                        resposta = input("Seu animal é AQUÁTICO?  [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é uma BALEIA.")
+                        elif resposta == "N" or resposta == "n":
+                                print("Animal INVÁLIDO.\n")
+                           
+if resposta == "N" or resposta == "n":
+        resposta = input("Seu animal pertence a categoria AVES? [Y] ou [N] : ")
+        if resposta == "Y" or resposta == "y":
+                resposta = input("Seu animal é NÃO VOADOR? [Y] ou [N] : ")
+                if resposta == "Y" or resposta == "y":
+                        resposta = input("Seu animal é TROPICAL? [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é um AVESTRUZ.")
+                        elif resposta == "N" or resposta == "n":
+                                resposta = input("Seu animal é POLAR? [Y] ou [N] : ")
+                                if resposta == "Y" or resposta == "y":
+                                        print("Seu animal é um PINGUIM.")
+                                elif resposta == "N" or resposta == "n":
+                                        print("Animal INVÁLIDO, vamos tentar última vez: \n")                
+        
+                if resposta == "N" or resposta == "n":
+                        resposta = input("Seu animal é NADADOR? [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é um PATO.")
+                        elif resposta == "N" or resposta == "n":
+                                resposta = input("Seu animal é de RAPINA? [Y] ou [N] : ")
+                                if resposta == "Y" or resposta == "y":
+                                        print("Seu animal é uma ÁGUIA.")
+                                elif resposta == "N" or resposta == "n":
+                                        print("Animal INVÁLIDO.\n")
+
+if resposta == "N" or resposta == "n":
+        resposta = input("Seu animal pertence a categoria RÉPTEIS: [Y] ou [N] : ")
+        if resposta == "Y" or resposta == "y":
+                resposta = input("Seu animal tem CASCO? [Y] ou [N] : ")
+                if resposta == "Y" or resposta == "y":
+                        print("Seu animal é uma TARTARUGA.")
+                elif resposta == "N" or resposta == "n":
+                        resposta = input("Seu animal é CARNÍVORO? [Y] ou [N] : ")
+                        if resposta == "Y" or resposta == "y":
+                                print("Seu animal é um CROCODILO.")
+                        elif resposta == "N" or resposta == "n":
+                                resposta = input("Seu animal é SEM PATAS [Y] ou [N] : ")
+                                if resposta == "Y" or resposta == "y":
+                                        print("Seu animal é uma COBRA.")
+                                elif resposta == "N" or resposta == "n":
+                                        print("Animal INVÁLIDO.\n")
+
+if resposta == "N" or resposta == "n":
+        while resposta == "N" or resposta == "n":
+                print("ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE ERRO DE ÍNDICE")
+                
